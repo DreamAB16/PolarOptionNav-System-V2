@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "id": "xuelong2",
+    "name": "雪龙2号",
+    "vessel_type": "极地科学考察破冰船",
+    "operator": "中国极地研究中心"
+  },
+  "geometry": {
+    "length_m": 122.5,
+    "beam_m": 22.32,
+    "design_draft_m": 7.85
+  },
+  "mass": {
+    "design_displacement_t": 13996
+  },
+  "propulsion": {
+    "type": "柴油电力推进，破冰型吊舱推进器",
+    "azipod_count": 2,
+    "azipod_power_mw_each": 7.5,
+    "total_propulsion_power_mw": 15.0
+  },
+  "speed": {
+    "service_speed_min_kn": 12,
+    "service_speed_max_kn": 15,
+    "maximum_speed_kn": 18,
+    "endurance_nmi": 20000,
+    "endurance_days": 60
+  },
+  "ice_capability": {
+    "ice_class": "PC3",
+    "continuous_ice_thickness_m": 1.5,
+    "continuous_snow_thickness_m": 0.2,
+    "continuous_ice_speed_min_kn": 2,
+    "continuous_ice_speed_max_kn": 3
+  },
+  "safety_constraints": {
+    "draft": 7.85,
+    "ice_class": "PC3",
+    "power": 15.0,
+    "speed_limit": 18
+  },
+  "sources": [
+    {
+      "title": "中国极地研究中心：雪龙2号",
+      "url": "https://www.pric.org.cn/index.php?c=category&id=91",
+      "fields": ["identity", "geometry", "mass", "speed", "ice_capability"]
+    },
+    {
+      "title": "工业和信息化部：我国自主建造的雪龙2号极地科学考察破冰船交付使用",
+      "url": "https://www.miit.gov.cn/jgsj/zbes/cbgy/art/2020/art_8580100d54eb4a61b105df8b455e4d75.html",
+      "fields": ["identity", "geometry", "mass", "speed", "ice_capability", "propulsion.type"]
+    },
+    {
+      "title": "新华社：雪龙2号采用两台7.5兆瓦破冰型吊舱推进器",
+      "url": "https://www.xinhuanet.com/tech/20251120/4b12c56623404a32b241c446a629f3e2/c.html",
+      "fields": ["propulsion"]
+    },
+    {
+      "title": "上海科技党建：雪龙2号下水",
+      "url": "https://shkjdw.gov.cn/c/2018-09-11/513478.shtml",
+      "fields": ["ice_capability.ice_class"]
+    }
+  ]
+}

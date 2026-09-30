@@ -1,0 +1,25 @@
+{
+  "name": "polar-option-nav-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "ol": "^10.3.1",
+    "proj4": "^2.22.0",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "jsdom": "^25.0.1",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0",
+    "vitest": "^2.1.8",
+    "vue-tsc": "^2.2.0"
+  }
+}

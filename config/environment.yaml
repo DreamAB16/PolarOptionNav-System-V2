@@ -1,0 +1,17 @@
+# Runtime location of the independently managed environmental data repository.
+# Override this machine-specific value with POLAR_ENVIRONMENT_DATA_ROOT when
+# deploying to another workstation or server.
+environment:
+  data_root: G:/gpy_NO_DELETE!/PolarData/environment
+
+datasets:
+  bathymetry:
+    path: bathymetry
+  ice:
+    path: ice
+  wind:
+    path: wind
+  current:
+    path: current
+  wave:
+    path: wave
